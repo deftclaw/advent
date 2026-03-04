@@ -20,6 +20,7 @@ class Dial:
 
         return str(self.tick)
 
+
     def right(self, clicks):
         self.tick = ( self.tick + clicks ) % 100
 
